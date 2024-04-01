@@ -22,8 +22,8 @@ def decrypt_pack(chunk_data, jp, pk_name):
         key = bytes.fromhex("d754868de89d717fa9e7b06da45ae9e3")
         iv = bytes.fromhex("40b2131a9f388ad4e5002a98118f6128")
     else:
-        key = bytes.fromhex("0ad39e4aeaf55aa717feb1825edef521")
-        iv = bytes.fromhex("d1d7e708091941d90cdf8aa5f30bb0c2")
+        key = bytes.fromhex("bea585eb993216ef4dcb88b625c3df98")
+        iv = bytes.fromhex("9b13c2121d39f1353a125fed98696649")
 
     if "server" in pk_name.lower():
         key = helper.md5_str("battlecats")
